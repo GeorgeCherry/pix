@@ -9,7 +9,7 @@
   </head>
   <body>
     <p>
-      <label class="labels" for="edgeSize">Image edge size (1-32):</label>
+      <label class="labels" for="edgeSize">Image edge size (1-250):</label>
       <input type="number" id="edgeSize" name="edgeSize" min="1" max="32">
     </p>
     <p>
@@ -17,7 +17,7 @@
       <input type="text" id="imageCode" name="imageCode" minlength="1">
     </p>
     <p>
-      <input class="labels" type = "button" onclick = "makePixels(3,1)" value = "Display">
+      <input class="display-button" type = "button" onclick = "makePixels(3,1)" value = "Make image">
     </p>
     <div id="pixel-area"></div>
 	<script src="index.js"></script>
